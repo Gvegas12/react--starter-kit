@@ -1,0 +1,13 @@
+@import url("lib/reset.css");
+@import url("config/fonts.css");
+@import "variables/global.scss";
+@import "variables/img.scss";
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: var(--container--width);
+  margin: 0 auto;
+}
